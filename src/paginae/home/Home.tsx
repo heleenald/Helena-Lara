@@ -50,7 +50,7 @@ export const Home = () => {
           {/* COLUMNA DERECHA: IMAGEN */}
           <div className="w-full lg:w-1/3 flex flex-col items-center">
             <img
-              src="public/imagines/me/helena_valencia.jpg"
+              src="/imagines/me/helena_valencia.jpg"
               alt="Helena"
               className="rounded-lg shadow-lg object-cover w-full h-auto max-w-xs md:max-w-lg lg:max-w-xl"
             />

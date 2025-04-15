@@ -64,7 +64,7 @@ export const Primus = () => {
                 </div>
               )}
               <img
-                src={`public/imagines/work/${work[index]}.jpg`}
+                src={`/imagines/work/${work[index]}.jpg`}
                 alt={`Obra ${index + 1}`}
                 loading="lazy"
                 className="w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-0"
