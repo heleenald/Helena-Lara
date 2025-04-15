@@ -1,0 +1,53 @@
+.totum {
+  display: flex;
+  flex-direction: column; 
+}
+
+/* MENÚ */
+aside {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  height: auto;
+  width: 100%; 
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 1rem;
+  box-shadow: 0 2px 10px var(--color-pink); 
+}
+
+aside ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+aside a:hover {
+  background-color: var(--color-favred);
+}
+
+
+.outlet {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 2rem; 
+}

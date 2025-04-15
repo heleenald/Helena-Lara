@@ -1,0 +1,30 @@
+.totum {
+    font-size: 3rem; 
+    background-color:white;
+    }
+    
+  
+
+    .botones > a {
+        color: white;
+        margin-right: 1rem;
+    }
+
+
+    
+   
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  
+
