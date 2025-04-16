@@ -40,13 +40,15 @@ export const AboutMe = () => {
         </div>
 
         {/* BOTÓN MÓVILES */}
-        <Link to="/work" 
-              className="bg-white border-[var(--color-favred)] border-2 text-[var(--color-favred)] 
-                         flex items-center justify-center px-4 md:px-5 py-1.5 md:py-2 text-sm md:text-base 
-                         rounded-lg cursor-pointer hover:bg-[var(--color-pink)] hover:border-white hover:text-white 
-                         font-montserrat w-fit self-center md:self-start mt-6 md:mt-4 order-3 md:hidden">
-          This is what I do
-        </Link>
+        <a href="/work"
+   className="appearance-none bg-white border-2 border-[#ce0f45] text-[#ce0f45]
+              flex items-center justify-center px-4 md:px-5 py-1.5 md:py-2 
+              text-sm md:text-base rounded-lg cursor-pointer 
+              hover:bg-[#E9C0D8] hover:border-white hover:text-white 
+              font-montserrat w-fit self-center md:self-start mt-6 md:mt-4 order-3 md:hidden">
+  This is what I do
+</a>
+
       </div>
 
       {/* TEXTO ESTUDIOS, HABILIDADES Y CUALIDADES */}
@@ -81,13 +83,14 @@ export const AboutMe = () => {
 
         {/* BOTÓN CONTACT */}
         <div className="w-full flex justify-end mt-12">
-          <Link to="/contact" 
-                className="bg-white border-[var(--color-favred)] border-2 text-[var(--color-favred)] 
-                         flex items-center justify-center px-4 md:px-5 py-1.5 md:py-2 text-sm md:text-base 
-                         rounded-lg cursor-pointer hover:bg-[var(--color-pink)] hover:border-white hover:text-white 
-                         font-montserrat w-fit self-center md:self-start mt-6 md:mt-4 order-3 ">
-            Contact Me
-          </Link>
+        <a href="/contact"
+   className="appearance-none bg-white border-2 border-[#ce0f45] text-[#ce0f45]
+              flex items-center justify-center px-4 md:px-5 py-1.5 md:py-2 
+              text-sm md:text-base rounded-lg cursor-pointer 
+              hover:bg-[#E9C0D8] hover:border-white hover:text-white 
+              font-montserrat w-fit mt-6 md:mt-4">
+  Contact Me
+</a>
         </div>
 
         {/* BANDA ROSA TEXTO */}
