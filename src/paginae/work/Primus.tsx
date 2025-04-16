@@ -37,8 +37,8 @@ export const Primus = () => {
       {[
         { work: work1, index: index1, setIndex: setIndex1, label: "Background in Fine Arts (2022-2023)", captions: captions1 },
         { work: work2, index: index2, setIndex: setIndex2, label: "Graphic Design - Branding for OCOA (2024)", captions: captions2 },
-        { work: work3, index: index3, setIndex: setIndex3, label: "Photography - Birthday theme (2024)", captions: captions3 },
-        { work: work4, index: index4, setIndex: setIndex4, label: "Photography - Guy Bourdin (2024)", captions: captions4 },
+        { work: work3, index: index3, setIndex: setIndex3, label: "Photography - Guy Bourdin (2024)", captions: captions3 },
+        { work: work4, index: index4, setIndex: setIndex4, label: "Photography - Birthday theme (2024)", captions: captions4 },
         { work: work5, index: index5, setIndex: setIndex5, label: "Typography - 36 days of Type, 3 letter sample (2024)", captions: captions5 },
         { work: work6, index: index6, setIndex: setIndex6, label: "Graphic Design - Poster (2025)", captions: captions6 },
         { work: work7, index: index7, setIndex: setIndex7, label: "Graphic Design - Branding for 'PAM!'(2025)", captions: captions7 }
