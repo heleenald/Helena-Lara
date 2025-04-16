@@ -11,7 +11,7 @@ const work7 = ["pam1", "pam2", "pam3", "pam4", "pam5", "pam6", "pam7", "pam8","p
 
 // Textos por imagen
 const captions1 = ["Acrylic on canvas, 20x20cm", "Chinese ink on paper, 42x20cm", "Ballpointpen on cardboard, 30x70cm", "'Collage' - Charcoal and pastels on paper, 100x70cm"];
-const captions2 = ["", "Moodboard", "Colour palettes", "Logo", "Typografy", "Adaptability", "Logo responsive", "Graphic elements", "Mockups chocolate bars", "Mockup bags", "Mockup box", "Mockup box", "Mockup flyer", "Mockup flyer"];
+const captions2 = ["", "Moodboard", "Colour palettes", "Logo", "Typography", "Adaptability", "Logo responsive", "Graphic elements", "Mockups chocolate bars", "Mockup bags", "Mockup box", "Mockup box", "Mockup flyer", "Mockup flyer"];
 const captions3 = ["Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work", "Inspired in Guy Bourdin's work"];
 const captions4 = ["Still life 1", "Portrait 1", "Still life 2", "Portrait 2", "Still life 3", "Portrait 3", "Still life 4", "Portrait 4"];
 const captions5 = ["Theme: 'Ca' la iaia' ('Grandma's house')", "Theme: 'Ca' la iaia' ('Grandma's house')", "Theme: 'Ca' la iaia' ('Grandma's house')"];
@@ -48,7 +48,7 @@ export const Primus = () => {
           {/* FLECHA IZQ */}
           <svg
             onClick={() => index > 0 && setIndex(index - 1)}
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 w-10 h-10 cursor-pointer text-gray-700 hover:text-white transition z-5"
+            className="absolute left-2 top-1/2 transform -translate-y-1/2 w-8 h-8 cursor-pointer text-gray-700 hover:text-white transition z-5 sm:w-10 sm:h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 -960 960 960"
           >
